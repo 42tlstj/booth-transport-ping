@@ -16,7 +16,7 @@ Python으로 작성 가능한 게임 등의 멀티미디어 표현을 위한 라
 hello world.py에서 보면 pygame의 기초 작동 방식을 알 수 있다.
 더 공부해보고 싶으면 https://www.pygame.org/docs/ 이 사이트를 참고해 공부하자.
 
-'''python
+```python
 import pygame # pygame 모듈의 임포트
 import sys # 외장 모듈
 from pygame.locals import * # QUIT 등의 pygame 상수들을 로드한다.
@@ -49,7 +49,7 @@ while True: # 아래의 코드를 무한 반복한다.
     
     pygame.display.update() # 화면을 업데이트한다
     clock.tick(fps) # 화면 표시 회수 설정만큼 루프의 간격을 둔다
-'''
+```
 
 모듈은 pygame을 사용하는데, pygame 모듈들을 사용하기 위해서는 pygame.init(), pygame.quit() 등으로 초기화, 종료를 시켜줘야 한다. 또 디스플레이에 작업한 내용을 보이려면 pygame.display.update()를 시켜줘야 한다.
 
